@@ -1,7 +1,7 @@
 Name:    libkexiv2
 Summary: An Exiv2 wrapper library
 Version: 4.10.5
-Release: 3%{?dist}
+Release: 4%{?dist}
 
 License: GPLv2+
 URL:     https://projects.kde.org/projects/kde/kdegraphics/libs/libkexiv2
@@ -76,6 +76,10 @@ make -C %{_target_platform}/test
 
 
 %changelog
+* Wed Sep 06 2017 Jan Grulich <jgrulich@redhat.com> - 4.10.5-4
+- Rebuild exiv2
+  Resolves: bz#1488010
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.10.5-3
 - Mass rebuild 2014-01-24
 
